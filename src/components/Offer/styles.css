@@ -1,0 +1,41 @@
+.root {
+    display: block;
+    padding: 4px;
+    margin: * * 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    line-height: 1.4;
+
+    &_compact {
+        composes: root;
+    }
+}
+
+.image {
+    display: block;
+    size: 100% *;
+    padding: 100% * *;
+    background: #ddd center / cover;
+}
+
+.placeholder {
+    composes: image;
+    position: relative;
+}
+
+.icon {
+    position: absolute 0;
+    size: 1em;
+    margin: auto;
+    color: #aaa;
+}
+
+.title,
+.description {
+    .root_compact & {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}

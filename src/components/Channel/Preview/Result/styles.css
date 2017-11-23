@@ -1,0 +1,47 @@
+.index {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    size: 64px;
+    flex: 0 0 auto;
+    background: #eee no-repeat center / cover;
+}
+
+.title {
+    padding: * * * 8px;
+    font-size: 16px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.header {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.background {
+    position: absolute 0;
+    z-index: -1;
+}
+
+.logo {
+    size: 128px 64px;
+    display: inline-block;
+    background: #eee no-repeat center / cover;
+}
+
+.manage {
+    margin: * * * 10px;
+}
+
+.description {
+    text-align: center;
+}
+
+.page {
+    height: 300px;
+}

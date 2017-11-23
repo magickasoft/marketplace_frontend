@@ -1,0 +1,13 @@
+.cell {
+    display: flex;
+    justify-content: space-between;
+}
+
+.label {
+    white-space: nowrap;
+}
+
+.sorter {
+    padding: * * * 8px;
+    flex: 0 0 auto;
+}

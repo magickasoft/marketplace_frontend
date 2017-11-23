@@ -1,0 +1,30 @@
+{
+  "name": "icons",
+  "css_prefix_text": "",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "1892bd7986c6b46f3d6ce9aade4de894",
+      "css": "ticket",
+      "code": 59392,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M506.8 219.2L152.6 573.3A100 100 0 0 0 152.5 714.6L294.1 856.2A100 100 0 0 0 435.4 856.1L789.6 502V219.2H506.8ZM258.8 891.6L117.2 750A150.1 150.1 0 0 1 117.2 538L488 167.2H841.5V520.7L470.8 891.5A150.1 150.1 0 0 1 258.8 891.6ZM700 350A50 50 0 1 1 600 350 50 50 0 0 1 700 350",
+        "width": 1000
+      },
+      "search": [
+        "ticket"
+      ]
+    },
+    {
+      "uid": "8663320a860b00f26e94d3d15c9ba99a",
+      "css": "clock",
+      "code": 59393,
+      "src": "entypo"
+    }
+  ]
+}

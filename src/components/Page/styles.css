@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    align-items: stretch;
+}
+
+.header {
+    background: rgb(56, 95, 112);
+    border-radius: 0;
+    border-width: 0;
+    border-color: #d4d4d4;
+}
+
+.nav {
+    font-weight: 300;
+    /*flex: 0 0 200px;*/
+    /*background: #fff;*/
+    /*margin: -20px 0 0;*/
+}
+
+.children {
+    flex: 1 1 auto;
+    width: 0; /* it fix MKP-427 */
+}

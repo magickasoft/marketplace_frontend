@@ -1,0 +1,10 @@
+
+.breadcrumb {
+    background: #fff;
+    border-radius: 0;
+}
+.summary-table {
+    border-collapse: separate;
+    border: solid #ddd 1px;
+    border-radius: 6px;
+}

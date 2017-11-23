@@ -1,0 +1,16 @@
+.place {
+    background-color: #f7f7f7;
+    border-color: #f7f7f7;
+    color: #777;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.places {
+    overflow-y: auto;
+    max-height: 345px;
+}
+
+.button-next {
+    margin-top: 15px;
+}

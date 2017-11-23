@@ -1,0 +1,8 @@
+.root {
+    margin: 10px * *;
+}
+
+.error {
+    color: #a94442;
+    margin: * * 0;
+}

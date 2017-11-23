@@ -1,0 +1,35 @@
+.root {
+    position: relative;
+    display: inline-block;
+}
+
+.menu {
+    position: absolute 100% * * 50%;
+    transform: translate(-50%, 0%);
+    z-index: 2;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 4px;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, .15);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+
+    &:before,
+    &:after {
+        content: "";
+        position: absolute -8px * * 50%;
+        border-width: 0 8px 8px 8px;
+        border-style: solid;
+        border-color: transparent;
+        margin: * * * -8px;
+    }
+
+    &:before {
+        border-bottom-color: rgba(0, 0, 0, .15);
+    }
+
+    &:after {
+        border-bottom-color: #fff;
+        margin: 1px * *;
+    }
+}

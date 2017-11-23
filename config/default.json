@@ -1,0 +1,13 @@
+{
+  "url": "http://dev.backend.marketplace.agoradoxa.net/api/",
+  "version": "v1/",
+  "mapbox": {
+    "key": "",
+    "url": "https://api.tiles.mapbox.com/",
+    "version": "v5/"
+  },
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "credentials": "include"
+}
